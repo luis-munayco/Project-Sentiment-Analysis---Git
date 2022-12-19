@@ -4,6 +4,7 @@ import re
 import random
 import time
 import json
+#import tweepy modulo V2
 from tweepy.streaming import StreamingClient
 from tweepy import OAuthHandler
 from tweepy import Stream

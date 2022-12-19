@@ -1,6 +1,6 @@
-import boto3
+import boto3 # Pyhton AWS SDK module
 import re
-import requests
+import requests #library to send doc to dashboard
 from requests_aws4auth import AWS4Auth
 import json
 
