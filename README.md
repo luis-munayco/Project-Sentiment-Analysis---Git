@@ -40,6 +40,7 @@ Steps:
 - Create a new OpenSearch Dashboard
 - In Cluster Configuration > Network > Access, set Public 
 
+
 An Opensearch cluster have to be set before. For this purpose, AWS is also used. Results of analisys is presented in a OpenSearch Dashboard
   
   
