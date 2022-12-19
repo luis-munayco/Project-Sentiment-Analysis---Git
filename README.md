@@ -21,7 +21,14 @@ ETL Pipeline have been built using AWS Serverless Services: AWS Kinesis Firehose
   title="AWS Pipeline Diagram"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
   
-  
+Steps:
+1. Configure AWS Kinesis Firehose:
+- IAM Role
+2. Configure AWS Lambda:
+- IAM Role
+3. Configure AWS Kinesis OpenSearch:
+- IAM Role
+
 An Opensearch cluster have to be set before. For this purpose, AWS is also used. Results of analisys is presented in a OpenSearch Dashboard
   
   
