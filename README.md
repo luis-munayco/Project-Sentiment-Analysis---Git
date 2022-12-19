@@ -13,7 +13,7 @@ Objectives and tasks:
 
 Tools: 1- Python / 2- AWS Kinesis / 3- AWS Lambda / 4- Opensearch
 
-ETL Pipeline have been built using AWS Serverless Services: AWS Kinesis Firehose, AWS Lambda
+ETL Pipeline have been built using AWS Serverless Services: AWS Kinesis Firehose, AWS Lambda. Sentiment analysis function is deployed in AWS Lambda. This AWS Lambda function is trigger every time a new tweet is added to the S3 bucket. Moreover, as it was said, AWS Kinesis is in charge of sending the tweets documents.
 
 <img
   src="/Images/diagram2.JPG"
