@@ -13,7 +13,7 @@ Objectives and tasks:
 
 Tools: 1- Python / 2- AWS Kinesis / 3- AWS Lambda / 4- Opensearch
 
-Once the data is cleaned and standarized, product description text is tokenized and lemmanized. Then token frequency in the dataset is calculated and top 20 tokens are selected to be analized. Correlation between tokens is also estimated to find correlation sales and perform a future basket analysis.
+ETL Pipeline have been built using AWS Serverless Services: AWS Kinesis Firehose, AWS Lambda
 
 <img
   src="/Images/diagram2.JPG"
@@ -22,7 +22,7 @@ Once the data is cleaned and standarized, product description text is tokenized 
   style="display: inline-block; margin: 0 auto; max-width: 150px">
   
   
-In order to find the product features that lead costumer to choose a product, it is necessary to calculate correlation between the 20 main tokens and the quantity of sales.
+Results of analisys is presented in a OpenSearch Dashboard
   
   
   <img
