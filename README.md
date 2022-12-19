@@ -1,25 +1,24 @@
 # Project-Sentiment-Analysis---Git
 
-Tokenization analysis in Polish Stores Chain
-
-The goal of this project is discover the key features in the description od the solds products by a Polish Stores Chain (Zabka) that lead customer to choose a product over the rest. For this purpuse, we analyzed data of millions of transactions (+ 2 GB) in all stores over the past 6 months. Data is stored in a Snowflake Warehouse. For our purpouse we are working with data of beer category
+Sentiment analysis of tweets using AWS Serverless Services
+The goal of this project is developed a full data pipeline using python and AWS Services in order to analyze tweets information and show the results in an OpenSearch dashboard. An specific topic is chosen in the python script to narrowed the results.
 
 Objectives and tasks:
 
-1. Clean and standarize Dataset
-2. Tokenization of product descrption text.
-3. Lemmanization of tokens
-4. Calculate correlation among main tokens.
-5. Calculate correlation between main tokens and quantity sales.
+1. Generate a tweets stream using AWS EC2 and API Twiteer v2
+2. Sent the tweets stream to an S3 Bucket using AWS Kinesis Firehose.
+3. Perform sentiment analized of the new tweets using a python program in AWS Lambda
+4. Sent the analized tweets to an OpenSearch Cluster.
+5. Show the results in a Opensearch Dashboard.
 
-Software: 1- Python / 2- Power BI
+Tools: 1- Python / 2- AWS Kinesis / 3- AWS Lambda / 4- Opensearch
 
 Once the data is cleaned and standarized, product description text is tokenized and lemmanized. Then token frequency in the dataset is calculated and top 20 tokens are selected to be analized. Correlation between tokens is also estimated to find correlation sales and perform a future basket analysis.
 
 <img
   src="/Images/diagram2.JPG"
-  alt="Matrix Correlation"
-  title="Matrix Correlation"
+  alt="AWS Pipeline Diagram"
+  title="AWS Pipeline Diagram"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
   
   
@@ -28,6 +27,6 @@ In order to find the product features that lead costumer to choose a product, it
   
   <img
   src="/Images/opensearch.JPG"
-  alt="Correlation Sales Beer"
-  title="Correlation Sales Beern"
+  alt="Sentiment Analysis Dashboard"
+  title="Sentiment Analysis Dashboard"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
