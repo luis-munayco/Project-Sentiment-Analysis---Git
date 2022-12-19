@@ -22,7 +22,7 @@ ETL Pipeline have been built using AWS Serverless Services: AWS Kinesis Firehose
   style="display: inline-block; margin: 0 auto; max-width: 150px">
   
   
-Results of analisys is presented in a OpenSearch Dashboard
+An Opensearch cluster have to be set before. For this purpose, AWS is also used. Results of analisys is presented in a OpenSearch Dashboard
   
   
   <img
