@@ -17,7 +17,7 @@ Software: 1- Python / 2- Power BI
 Once the data is cleaned and standarized, product description text is tokenized and lemmanized. Then token frequency in the dataset is calculated and top 20 tokens are selected to be analized. Correlation between tokens is also estimated to find correlation sales and perform a future basket analysis.
 
 <img
-  src="/Images/opensearch.JPG"
+  src="/Images/Diagram.JPG"
   alt="Matrix Correlation"
   title="Matrix Correlation"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
@@ -27,7 +27,7 @@ In order to find the product features that lead costumer to choose a product, it
   
   
   <img
-  src="/Images/Diagram.JPG"
+  src="/Images/opensearch.JPG"
   alt="Correlation Sales Beer"
   title="Correlation Sales Beern"
   style="display: inline-block; margin: 0 auto; max-width: 150px">
